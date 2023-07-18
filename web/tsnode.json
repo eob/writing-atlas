@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "type": "module",
+  "main": "index.js",
+  "compilerOptions": {
+      "target": "ES2017"
+  }
+}

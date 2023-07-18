@@ -1,0 +1,46 @@
+/* react-select element styles
+
+   We use [class*=''] to match the className,
+   without allowing PostCSS to alter the selector.
+   This is because PostCSS can't alter react-select element class names to match.
+   It _feels_ hacky, but it's legit CSS...
+*/
+
+.async-select [class*='async-select__control'] {
+}
+
+.async-select [class*='async-select__value-container'] {
+  @apply py-1;
+}
+
+.async-select [class*='async-select__multi-value'] {
+  @apply rounded-full py-0.5 pl-1.5 pr-1;
+}
+
+.async-select [class*='async-select__multi-value__label'] {
+}
+
+.async-select [class*='async-select__multi-value__remove'] {
+  @apply pl-0;
+}
+
+.async-select [class*='async-select__input'] > input {
+}
+
+.async-select [class*='async-select__indicators'] {
+}
+
+.async-select [class*='async-select__clear-indicator'] {
+}
+
+.async-select [class*='async-select__dropdown-indicator'] {
+}
+
+.async-select [class*='async-select__menu'] {
+}
+
+.async-select [class*='async-select__menu-list'] {
+}
+
+.async-select [class*='async-select__option'] {
+}

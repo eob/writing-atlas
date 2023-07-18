@@ -1,0 +1,107 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+
+$pad-wide: 20px;
+$color-red: ;
+$color-white: #fff;
+$title-pad: 0.25em;
+$title-lineheight: $title-pad + 1;
+
+/* https://codepen.io/hotmeteor/pen/ibvJs */
+
+.markable {
+  line-height: 0.25em + 1em;   
+}
+
+.mark {
+  display: inline;
+  color: #FFF; 
+  padding: 0.25em;
+  background-color: #ee4035;
+}
+
+
+.mark-wrapping {
+  position: relative;
+  left: 0.25em;
+  padding-left: 0;
+  box-shadow: 20px 0 0 #ee4035,  
+  20px*-1 0 0 #ee4035;
+}
+
+html, body, * {
+  font-family: 'Inter var', sans-serif;
+}  
+
+/* .bdb {
+  .highlight {
+    background-color: green;
+    box-decoration-break: clone;
+  }
+} */
+
+a.hu:hover {
+  text-decoration: underline;
+}
+
+.clamp-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* number of lines to show */
+}
+
+html, body {
+  @apply min-h-screen;
+  @apply bg-gray-50;
+}
+
+.bg-global {
+  @apply bg-gray-50;
+}
+
+.list-container {
+  @apply max-w-3xl;
+  @apply mx-auto;
+}
+
+.clampMe {
+  position: relative;
+  @apply h-12;
+  overflow: hidden;
+}
+
+.clampMe:after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  @apply h-4;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 80%);
+}
+
+/* Now add in code for the browsers that support -webkit-line-clamp and overwrite the non-supportive stuff */
+@supports (-webkit-line-clamp: 2) {
+  .clampMe {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+  }
+  
+  .clampMe:after {
+    display: none;
+  }
+}
+
+.colored {
+  @apply text-blue-500;
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/test/styles.css" type="text/css" ?>
+<?xml-stylesheet href="test/test/styles.xls" type="text/xsl" ?>
+
+      <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      <url><loc>https://robotbookclub.com/author/[authorhandle]/stories/[bookhandle]/c/[characterhandle]</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/author/[authorhandle]/stories/[bookhandle]</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/author/[authorhandle]</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/about</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/annotate/index</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/api/hello</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/authors</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/index</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/join</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/legal</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url><url><loc>https://robotbookclub.com/meetings/001-all-of-michael-crichton/index</loc>
+                
+                
+                
+                <lastmod>2020-07-05</lastmod>
+                </url></urlset>
